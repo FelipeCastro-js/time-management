@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# 🕑 Pomodoro Timer App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/Framework-React%20Native-blue)   
+![License MIT](https://img.shields.io/badge/License-MIT-green)
 
-## Get started
+---
 
-1. Install dependencies
+## 📖 Descripción
 
+Esta **Pomodoro Timer App** es una aplicación móvil nativa creada con **React Native** puro. Permite al usuario alternar entre tres fases de trabajo/descanso:
+
+1. **Pomodoro** (25 min)  
+2. **Short Break** (5 min)  
+3. **Long Break** (15 min)
+
+Cuando el temporizador llega a **00:00**, suena un **sonido de alarma** para notificar al usuario que ha terminado la fase actual y automáticamente pasa a la siguiente etapa.
+
+<div align="center">
+  <img width="404" height="891" alt="image" src="https://github.com/user-attachments/assets/85b7ef1a-fd1b-4da0-98f6-7558e5fb61ec" />
+
+</div>
+
+
+---
+
+## ✨ Características principales
+
+- 🔄 **Ciclo automático** entre Pomodoro → Short Break → Long Break → Pomodoro…  
+- 🎵 **Notificación por audio** al terminar cada fase (Despertador personalizado).  
+- 🎨 **Estilos modernos** con react native puro 
+- 💡 **Navegación simple** entre las tres pestañas de temporizador.  
+
+---
+
+## 🚀 Tecnologías
+
+- **React Native** (JavaScript)  
+- **Expo Audio** (`expo-av`) para reproducir el sonido de alarma  
+- **Expo Router** (opcional) para navegación ligera  
+
+---
+
+## 🛠️ Instalación y puesta en marcha
+
+1. Clona este repositorio  
    ```bash
+   git clone https://github.com/tu-usuario/pomodoro-timer.git
+   cd pomodoro-timer
+
+2. Instala dependencias
    npm install
-   ```
 
-2. Start the app
+3. Inicia la aplicación
+   expo start
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+¡Gracias por echar un vistazo! Si tienes sugerencias o mejoras, abre un issue o envía un pull request. 🚀
